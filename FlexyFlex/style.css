@@ -1,0 +1,104 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "Poppins", serif;
+    background-color: #231e39;
+}
+
+.container {
+    user-select: none;
+    margin: 100px auto;
+    background: #231e39;
+    color: #b3b8cd;
+    border-radius: 5px;
+    width: 350px;
+    text-align: center;
+    box-shadow: 0px 10px 20px -10px rgba(0, 0, 0, 0.75);
+}
+
+.container:hover {
+    transform: scale(1.1);
+    transition: ease-in-out 0.3s;
+}
+
+.cover-photo {
+    background: url("https://lh3.googleusercontent.com/proxy/NWe9ylrPyzFO8i8K98PzdtLaNgdirpkJZhevjwg1dodq4Erk4gXZVb5xHGiYwkA_AMMmOibDG1suGXEI8UtRUY556TTtmG9Zf4G7yjtVmaUgWO84VkJZBAE6FDYdjf9Ogg");
+    height: 150px;
+    width: 100%;
+    border-radius: 5px 5px 0 0;
+}
+
+.profile {
+    height: 120px;
+    width: 120px;
+    border-radius: 50%;
+    margin: 94px 0 0 -175px;
+    border: 1px solid #1f1a32;
+    padding: 7px;
+    background: #292343;
+}
+
+.profile-name {
+    font-size: 25px;
+    font-weight: 600;
+    margin: 27px 0 0 120px;
+}
+
+.about {
+    margin-top: 35px;
+    line-height: 21px;
+}
+
+.button {
+    margin: 10px 0 40px 0;
+}
+
+.msg-btn, .follow-btn {
+    background: #D8C4B6;
+    padding: 10px 25px;
+    color: #231e39;
+    border-radius: 3px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.follow-btn {
+    margin: 10px;
+    background: transparent;
+    color: #D8C4B6;
+}
+
+.follow-btn:hover {
+    color: #F5EFE7;
+    transition: 0.3s ease-in-out;
+    background: transparent;
+    background-color: #474E93;
+}
+
+.msg-btn {
+    color: #D8C4B6;
+    margin: 10px;
+    background: transparent;
+}
+
+.msg-btn:hover {
+    color: #F5EFE7;
+    transition: 0.3s ease-in-out;
+    background-color: #474E93;
+}
+
+.container i {
+    padding-left: 20px;
+    font-size: 20px;
+    margin-bottom: 20px;
+    cursor: pointer;
+    transition: .5s;
+}
+
+.container i:hover {
+    color: #D8C4B6;
+}
